@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/AXI/AXI_Lite/ownAXIL/sim/axil_itf.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Documents/AXI/AXI_Lite/ownAXIL/sim/TB_AXI_Lite.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_AXI_Lite

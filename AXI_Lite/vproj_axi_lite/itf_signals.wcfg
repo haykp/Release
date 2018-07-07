@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_AXI_Lite_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_AXI_Lite" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1054000001fs"></ZoomEndTime>
+      <Cursor1Time time="100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="95"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/TB_AXI_Lite/itf/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/aresetn" type="logic">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_awprot" type="array">
+      <obj_property name="ElementShortName">axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_awready" type="logic">
+      <obj_property name="ElementShortName">axi_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_wdata" type="array">
+      <obj_property name="ElementShortName">axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_wready" type="logic">
+      <obj_property name="ElementShortName">axi_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_bresp" type="array">
+      <obj_property name="ElementShortName">axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_bready" type="logic">
+      <obj_property name="ElementShortName">axi_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_araddr" type="array">
+      <obj_property name="ElementShortName">axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_arprot" type="array">
+      <obj_property name="ElementShortName">axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_arready" type="logic">
+      <obj_property name="ElementShortName">axi_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_rdata" type="array">
+      <obj_property name="ElementShortName">axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_rresp" type="array">
+      <obj_property name="ElementShortName">axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/axi_rready" type="logic">
+      <obj_property name="ElementShortName">axi_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/app_waddr" type="array">
+      <obj_property name="ElementShortName">app_waddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">app_waddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/app_wdata" type="array">
+      <obj_property name="ElementShortName">app_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/app_wen" type="logic">
+      <obj_property name="ElementShortName">app_wen</obj_property>
+      <obj_property name="ObjectShortName">app_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/app_raddr" type="array">
+      <obj_property name="ElementShortName">app_raddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">app_raddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/app_ren" type="logic">
+      <obj_property name="ElementShortName">app_ren</obj_property>
+      <obj_property name="ObjectShortName">app_ren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/app_rdata" type="array">
+      <obj_property name="ElementShortName">app_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">app_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/app_wdone" type="logic">
+      <obj_property name="ElementShortName">app_wdone</obj_property>
+      <obj_property name="ObjectShortName">app_wdone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_AXI_Lite/itf/app_rdone" type="logic">
+      <obj_property name="ElementShortName">app_rdone</obj_property>
+      <obj_property name="ObjectShortName">app_rdone</obj_property>
+   </wvobject>
+</wave_config>
