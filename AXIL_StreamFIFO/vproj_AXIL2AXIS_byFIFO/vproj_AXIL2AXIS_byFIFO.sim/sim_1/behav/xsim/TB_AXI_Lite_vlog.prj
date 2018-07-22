@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
+"../../../../../rtl/axis_m.v" \
+"../../../../../rtl/axis_s.v" \
+"../../../../../rtl/axi_lite_m.v" \
+"../../../../vproj_AXIL2AXIS_byFIFO.ip_user_files/bd/topBlock/ip/topBlock_axis_lite_m_0_0/sim/topBlock_axis_lite_m_0_0.v" \
+"../../../../vproj_AXIL2AXIS_byFIFO.ip_user_files/bd/topBlock/sim/topBlock.v" \
+
+sv xil_defaultlib  --include "C:/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
+"../../../../../sim/axil_itf.sv" \
+"../../../../../sim/TB_AXI_Lite.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

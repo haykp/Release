@@ -1,0 +1,44 @@
+{
+   ExpandedHierarchyInLayout: "",
+   PinnedBlocks: "/axi_fifo_mm_s_0|/axis_lite_m_0|",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port app_rerror -pg 1 -y 250 -defaultsOSRD
+preplace port app_ren -pg 1 -y 40 -defaultsOSRD
+preplace port app_wen -pg 1 -y 160 -defaultsOSRD
+preplace port app_rdone -pg 1 -y 230 -defaultsOSRD
+preplace port app_werror -pg 1 -y 210 -defaultsOSRD
+preplace port app_wdone -pg 1 -y 190 -defaultsOSRD
+preplace port mm2s_prmry_reset_out_n -pg 1 -y 130 -defaultsOSRD
+preplace port aclk -pg 1 -y 100 -defaultsOSRD
+preplace port interrupt -pg 1 -y 150 -defaultsOSRD
+preplace port AXI_STR_TXD -pg 1 -y 90 -defaultsOSRD
+preplace port aresetn -pg 1 -y 60 -defaultsOSRD
+preplace portBus app_raddr -pg 1 -y 180 -defaultsOSRD
+preplace portBus app_rdata -pg 1 -y 270 -defaultsOSRD
+preplace portBus app_waddr -pg 1 -y 120 -defaultsOSRD
+preplace portBus app_wdata -pg 1 -y 80 -defaultsOSRD
+preplace inst axi_fifo_mm_s_0 -pg 1 -lvl 2 -y 110 -defaultsOSRD
+preplace inst axis_lite_m_0 -pg 1 -lvl 1 -y 140 -defaultsOSRD
+preplace netloc axis_lite_m_0_m_axi 1 1 1 N
+preplace netloc axis_lite_m_0_app_rdone 1 1 2 400 20 760J
+preplace netloc app_data_1 1 0 1 0
+preplace netloc axis_lite_m_0_app_rdata 1 1 2 380 10 750J
+preplace netloc axi_fifo_mm_s_0_AXI_STR_TXD 1 2 1 N
+preplace netloc axis_lite_m_0_app_werror 1 1 2 340 210 NJ
+preplace netloc axis_lite_m_0_app_rerror 1 1 2 350 30 730J
+preplace netloc axis_lite_m_0_app_wdone 1 1 2 360 190 NJ
+preplace netloc app_raddr_1 1 0 1 N
+preplace netloc app_wen_1 1 0 1 N
+preplace netloc app_ren_1 1 0 1 10
+preplace netloc axi_fifo_mm_s_0_interrupt 1 2 1 740
+preplace netloc app_waddr_1 1 0 1 N
+preplace netloc axi_fifo_mm_s_0_mm2s_prmry_reset_out_n 1 2 1 N
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 0 2 30 10 370J
+preplace netloc clk_wiz_clk_out1 1 0 2 20 20 390J
+levelinfo -pg 1 -20 190 570 780 -top 0 -bot 410
+",
+}
+{
+   da_clkrst_cnt: "1",
+}

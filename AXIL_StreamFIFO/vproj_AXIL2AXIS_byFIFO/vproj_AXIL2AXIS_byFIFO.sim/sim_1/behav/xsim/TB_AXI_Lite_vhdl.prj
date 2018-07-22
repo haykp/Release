@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../vproj_AXIL2AXIS_byFIFO.ip_user_files/bd/topBlock/ip/topBlock_axi_fifo_mm_s_0_0/sim/topBlock_axi_fifo_mm_s_0_0.vhd" \
+
+# Do not sort compile order
+nosort

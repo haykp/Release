@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/topBlock/ip/topBlock_axi_fifo_mm_s_0_0/sim/topBlock_axi_fifo_mm_s_0_0.vhd" \
+
+nosort

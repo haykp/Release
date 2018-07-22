@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../bd/topBlock/ip/topBlock_axis_lite_m_0_0/sim/topBlock_axis_lite_m_0_0.v" \
+"../../../bd/topBlock/sim/topBlock.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

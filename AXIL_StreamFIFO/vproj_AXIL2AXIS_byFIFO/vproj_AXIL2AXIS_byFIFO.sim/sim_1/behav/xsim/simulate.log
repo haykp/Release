@@ -1,0 +1,88 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+[INFO]Calling read_data task for the address: 44a00000
+[INFO] END Calling read_data task, read_data=01400000
+[INFO] Calling write_data task, addr=44a00000, data=ffffffff
+[INFO] END Calling write_data task
+[INFO]Calling read_data task for the address: 44a00000
+[INFO] END Calling read_data task, read_data=00000000
+[INFO]Calling read_data task for the address: 44a00004
+[INFO] END Calling read_data task, read_data=00000000
+[INFO]Calling read_data task for the address: 44a0000c
+[INFO] END Calling read_data task, read_data=000001fc
+[INFO]Calling read_data task for the address: 44a0001c
+[INFO] END Calling read_data task, read_data=00000000
+[INFO] Calling write_data task, addr=44a00004, data=0c000000
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddea0
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddea1
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddea2
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddea3
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddeb4
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddeb5
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddeb6
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddeb7
+[INFO] END Calling write_data task
+[INFO]Calling read_data task for the address: 44a0000c
+[INFO] END Calling read_data task, read_data=000001f6
+[INFO] Calling write_data task, addr=44a00014, data=00000020
+[INFO] END Calling write_data task
+[INFO]Calling read_data task for the address: 44a00000
+[INFO] END Calling read_data task, read_data=00200000
+[INFO] Calling write_data task, addr=44a00000, data=ffffffff
+[INFO] END Calling write_data task
+[INFO]Calling read_data task for the address: 44a00000
+[INFO] END Calling read_data task, read_data=00000000
+[INFO]Calling read_data task for the address: 44a0000c
+[INFO] END Calling read_data task, read_data=000001fc
+$finish called at time : 3990 ns : File "D:/Documents/AXI/AXI_Lite/ownAXIL2AXIS_withStreamFIFO/sim/TB_AXI_Lite.sv" Line 198
+[INFO]Calling read_data task for the address: 44a00000
+[INFO] END Calling read_data task, read_data=01400000
+[INFO] Calling write_data task, addr=44a00000, data=ffffffff
+[INFO] END Calling write_data task
+[INFO]Calling read_data task for the address: 44a00000
+[INFO] END Calling read_data task, read_data=00000000
+[INFO]Calling read_data task for the address: 44a00004
+[INFO] END Calling read_data task, read_data=00000000
+[INFO]Calling read_data task for the address: 44a0000c
+[INFO] END Calling read_data task, read_data=000001fc
+[INFO]Calling read_data task for the address: 44a0001c
+[INFO] END Calling read_data task, read_data=00000000
+[INFO] Calling write_data task, addr=44a00004, data=0c000000
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddea0
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddea1
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddea2
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddea3
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddeb4
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddeb5
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddeb6
+[INFO] END Calling write_data task
+[INFO] Calling write_data task, addr=44a00010, data=deaddeb7
+[INFO] END Calling write_data task
+[INFO]Calling read_data task for the address: 44a0000c
+[INFO] END Calling read_data task, read_data=000001f6
+[INFO] Calling write_data task, addr=44a00014, data=00000020
+[INFO] END Calling write_data task
+[INFO]Calling read_data task for the address: 44a00000
+[INFO] END Calling read_data task, read_data=00200000
+[INFO] Calling write_data task, addr=44a00000, data=ffffffff
+[INFO] END Calling write_data task
+[INFO]Calling read_data task for the address: 44a00000
+[INFO] END Calling read_data task, read_data=00000000
+[INFO]Calling read_data task for the address: 44a0000c
+[INFO] END Calling read_data task, read_data=000001fc
+$finish called at time : 3990 ns : File "D:/Documents/AXI/AXI_Lite/ownAXIL2AXIS_withStreamFIFO/sim/TB_AXI_Lite.sv" Line 198
